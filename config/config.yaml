@@ -24,7 +24,7 @@ crawler:
 #   • 适用场景：避免重复信息干扰
 
 report:
-  mode: "daily" # 可选: "daily"|"incremental"|"current"
+  mode: "incremental" # 可选: "daily"|"incremental"|"current"
   rank_threshold: 5 # 排名高亮阈值
 
 notification:
@@ -47,6 +47,8 @@ weight:
   hotness_weight: 0.1 # 热度权重
 
 platforms:
+  - id: "v2ex"
+    name: "V2EX"
   - id: "toutiao"
     name: "今日头条"
   - id: "baidu"
