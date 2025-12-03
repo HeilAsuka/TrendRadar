@@ -1,0 +1,87 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 125</p><p>生成时间: 2025-12-03 19:21:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">8</td>
+                <td class="percentage">6.4%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7579560279013330468/" target="_blank" class="news-link">高市称日本政府对台湾的立场没改变</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8omf5CulzTR" target="_blank" class="news-link">批评高市被骂“放冷枪”，石破茂：还记得日本当年的结局吗？</a> [7] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347690&amp;amp;topic_name=%E6%87%82%E7%8E%8B%E5%8F%8D%E5%90%91%E7%82%B9%E5%90%8D%2C%E6%9A%97%E7%A4%BA%E6%97%A5%E9%9F%A9%E5%9D%91%E7%BE%8E%E5%9B%BD" target="_blank" class="news-link">懂王反向点名,暗示日韩坑美国</a> [8] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E6%AD%A3%E5%8F%91%E5%8A%A8%E6%97%A0%E5%A3%B0%E6%88%98%E4%BA%89%23&amp;t=31&amp;band_rank=14&amp;Refer=top" target="_blank" class="news-link">日本正发动无声战争</a> [14] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%9F%B3%E7%A0%B4%E8%8C%82%E5%8F%8D%E9%97%AE%E8%BF%98%E8%AE%B0%E5%BE%97%E6%97%A5%E6%9C%AC%E9%82%A3%E6%97%B6%E7%9A%84%E7%BB%93%E5%B1%80%E5%90%97%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">石破茂反问还记得日本那时的结局吗</a> [18] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%83%AD%E6%AD%A3%E4%BA%AE%EF%BC%9A%E8%8B%A5%E6%97%A5%E6%9C%AC%E5%86%9B%E4%BA%8B%E4%BB%8B%E5%85%A5%E5%8F%B0%E6%B5%B7%E8%A7%86%E5%90%8C%E4%BE%B5%E7%95%A5" target="_blank" class="news-link">郭正亮：若日本军事介入台海视同侵略</a> [22] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%9F%B3%E7%A0%B4%E8%8C%82%E5%8F%8D%E9%97%AE%EF%BC%9A%E8%BF%98%E8%AE%B0%E5%BE%97%E9%82%A3%E6%97%B6%E6%97%A5%E6%9C%AC%E7%9A%84%E7%BB%93%E5%B1%80%E5%90%97" target="_blank" class="news-link">石破茂反问：还记得那时日本的结局吗</a> [25] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2324828" target="_blank" class="news-link">特朗普点名日本</a> [25] <font color='grey'>- 19时21分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">3.2%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%A7%91%E6%99%AE%E4%B8%AD%E5%9B%BD%E9%A6%96%E6%9E%9A%E5%8F%AF%E5%9B%9E%E6%94%B6%E7%81%AB%E7%AE%AD" target="_blank" class="news-link">科普中国首枚可回收火箭</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7579359598147141686/" target="_blank" class="news-link">《日本投降书》明确台湾归还中国</a> [16] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1978958003660150727" target="_blank" class="news-link">中国男篮被韩国男篮双杀，这事怨不怨姚明？和姚明有关吗？</a> [19] <font color='grey'>- 19时21分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8F%B0%E6%B9%BE%E5%89%8D%E9%80%94%E5%8F%AA%E8%83%BD%E7%94%B114%E4%BA%BF%E5%A4%9A%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%86%B3%E5%AE%9A" target="_blank" class="news-link">台湾前途只能由14亿多中国人民决定</a> [26] <font color='grey'>- 19时21分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
